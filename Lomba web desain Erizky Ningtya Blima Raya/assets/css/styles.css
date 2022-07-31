@@ -1,0 +1,24 @@
+body {
+  color: #ffffff;
+  background: #100F0F;
+}
+
+#hero {
+}
+
+@media (min-width: 576px) {
+  #hero {
+  }
+}
+
+#banner {
+  padding: 30px;
+  border-radius: 20px;
+  border-color: rgb(255, 255, 255);
+  border-top-color: rgb(255,;
+  border-right-color: 255,;
+  border-bottom-color: 255);
+  border-left-color: 255,;
+  background: #ffffff;
+}
+

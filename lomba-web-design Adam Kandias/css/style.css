@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #39C0ED;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+.nav-color {
+    background-color: #5F6ECE;
+    transition: all, ease-in-out, 300ms;
+}
+
+.bg-transparent {
+    transition: all, ease-in, 300ms;
+}
+
+.nav-link {
+    color: #000;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.btn-outline-primary {
+    border-color: transparent;
+    color: white;
+}
+
+.btn-outline-primary:hover {
+    color: white;
+    background-color: transparent;
+    border-color: white;
+}
+
+.btn-outline-primary:focus {
+    color: white;
+    background-color: transparent;
+    outline: none;
+    box-shadow: none;
+    border-color: white;
+}
+
+/* Hero */
+#hero {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(180deg, #B45B8F, #5F6ECE);
+}
+
+#hero img {
+    height: 100%;
+}
+
+#hero .text-hero {
+    padding-left: 3rem;
+}
+
+#hero h1 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 72px;
+}
+
+#hero p {
+    color: #dddddd;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    font-size: 16px;
+    line-height: 30px;
+    width: 85%;
+}
+
+/* Fitur */
+#fitur *.card {
+    transition: 500ms;
+    box-shadow: 5px 7px rgba(2, 117, 216, 0.3);
+}
+
+#fitur *.card:hover {
+    transform: translateY(-2rem);
+    box-shadow: 5px 7px rgba(2, 117, 216, 1);
+}
+
+#fitur .new-row {
+    margin: 0;
+}
+
+/* Partner */
+#partnership .container-fluid {
+    background: linear-gradient(45deg, #B45B8F, #5F6ECE);
+    background: -webkit-linear-gradient(to left, #B45B8F, #5F6ECE);
+    padding-bottom: 200px;
+}
+
+/* Testimoni */
+#testimoni *.card {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.12),
+        0 0 12px rgba(0, 0, 0, 0.12),
+        0 0 16px rgba(0, 0, 0, 0.12),
+        0 0 22px rgba(0, 0, 0, 0.12),
+        0 0 30px rgba(0, 0, 0, 0.12);
+    transition: 500ms;
+    width: 18rem;
+}
+
+#testimoni *.card:hover {
+    transform: scale(1.07);
+    box-shadow: 0 0 1px rgba(2, 117, 216, 0.8),
+        0 0px 2px rgba(2, 117, 216, 0.8),
+        0 0px 4px rgba(2, 117, 216, 0.8),
+        0 0px 8px rgba(2, 117, 216, 0.8),
+        0 0px 16px rgba(2, 117, 216, 0.8);
+}
+
+/* Footer */
+.footer {
+    background-color: #24262b;
+    padding: 70px 0 0 0;
+}
+
+.footer .container .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #0275D8;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #0275D8;
+    padding-left: 8px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #0275D8;
+}

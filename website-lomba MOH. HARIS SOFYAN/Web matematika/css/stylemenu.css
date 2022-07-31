@@ -1,0 +1,9 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    background-color:#FAD7A0;
+}
+.container a {
+   color: blue;
+}

@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  font-weight: 300;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+h5 {
+  font-weight: 500;
+}
+
+.nav-link {
+  color: black;
+}
+
+.nav-link:hover {
+  border-top: 3px solid #7acbcd;
+  color: #7acbcd;
+}
+
+.social-part {
+  padding: 0.5rem 0;
+}
+
+.social-part .fa {
+  padding-left: 15px;
+  font-size: 1.2rem;
+  color: black;
+}
+
+.fa:hover {
+  transform: scale(1.5);
+}
+
+.btn-all {
+  background-color: #7acbcd;
+  border-color: #7acbcd;
+  color: white;
+}
+
+.btn-all:hover {
+  background-color: transparent;
+  color: #7acbcd;
+  border-color: #7acbcd;
+}
+
+.btn-login {
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  padding: 0.75rem 1rem;
+  background-color: #7acbcd;
+  border-color: #7acbcd;
+}
+
+.btn-login:hover {
+  background-color: #7acbcd;
+  opacity: 75%;
+  border-color: #7acbcd;
+}
+
+li {
+  padding-left: 15px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown:hover {
+  background-color: white;
+}
+
+.dropdown-menu {
+  margin-top: 0;
+  background-color: #7acbcd;
+  color: black;
+}
+
+.icon-bar {
+    position: fixed;
+    top: 25%;
+    right: 0;
+    list-style: none;
+    padding-left: 0;
+    z-index: 10;
+    margin: 0;
+    -webkit-transition: right 0.25s ease-in-out;
+    transition: right 0.25s ease-in-out;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 5px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.twitter {
+  background: #55acee;
+  color: white;
+}
+
+.instagram {
+  background: rgb(249, 83, 110);
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.reveal {
+    position: relative;
+    opacity: 0;
+}
+  
+.reveal.active {
+    opacity: 1;
+}
+
+.active.fade-bottom {
+    animation: fade-bottom 1s ease-in;
+}
+
+@keyframes fade-bottom {
+    0% {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+}

@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AyoSinau!</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="../img/favicon.ico"/>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+    <!-- Bootstap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+    <!-- My CSS -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/responsive.css" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg bg-transparent">
+        <div class="container">
+            <a class="navbar-brand text-light fw-bold fs-5" href="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                    class="bi bi-book me-2" viewBox="0 0 16 16">
+                    <path
+                        d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z" />
+                </svg><span>AyoSinau!</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav mx-auto">
+                    <a class="nav-link mx-2" href="#">Beranda</a>
+                    <a class="nav-link mx-2" href="#tentang">Tentang</a>
+                    <a class="nav-link mx-2" href="#fitur">Fitur</a>
+                    <a class="nav-link mx-2" href="#partnership">Partner</a>
+                    <a class="nav-link mx-2" href="#testimoni">Testimoni</a>
+                </div>
+                <div>
+                    <button class="btn btn-outline-primary me-2 login">Login</button>
+                    <button class="btn btn-primary ms-2">Bergabung Sekarang</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="hero">
+        <div class="container h-150">
+            <div class="row my-auto h-150">
+                <div class="col-md-6 mt-5">
+                    <img class="" src="../img/hero-image.svg" />
+                </div>
+                <div class="col-md-6 my-auto text-hero">
+                    <h1 class="fw-bold">Belajar Kapanpun Dan Dimanapun!</h1>
+                    <p class="mt-4">
+                        Belajar jadi lebih terarah dengan materi yang up to date dan
+                        didampingi para guru yang ahli dibidangnya. Disertai fitur Video
+                        Learning dan dapat berdiskusi bersama murid lainnya.
+                    </p>
+                    <button class="btn btn-primary">BELAJAR GRATIS SEKARANG</button>
+                    <a href="#" class="mx-3">Pelajari lebih lanjut<i class="bi bi-arrow-right-short"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tentang -->
+    <section id="tentang">
+        <div class="container mb-5 pb-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="../img/about-image.svg" />
+                </div>
+                <div class="col-md-6 my-auto align-items-center">
+                    <h2 class="fw-semibold">Tentang Kami</h2>
+                    <p class="mt-4">
+                        <span class="text-primary">AyoSinau!</span> adalah website
+                        pembelajaran interaktif yang membantu pelajar diseluruh Indonesia
+                        untuk belajar dengan mudah. Disertai Bahan belajar, guru-guru yang
+                        berpengalaman dibidangnya, serta materi yang terus di update
+                        sehingga sesuai dengan kurikulum terbaru. Dengan AyoSinau!, kita
+                        dapat belajar di mana saja dan kapan saja. Disertai banyak fitur
+                        yang memudahkan pelajar untuk belajar. Seluruh konten dan fitur
+                        yang ada di AyoSinau! dapat diakses dan dimanfaatkan secara
+                        gratis.
+                    </p>
+                </div>
+            </div>
+            <h3 class="text-center my-3">Ayo Gabung Sekarang Juga Bersama</h3>
+            <div class="row row-cols-1 row-cols-md-4 g-4 text-center">
+                <div class="col">
+                    <div class="card">
+                        <img src="../img/student.svg" class="card-img-top" alt="student-svg">
+                        <div class="card-body">
+                            <h5 class="card-title">500.000 Siswa</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="../img/teacher.svg" class="card-img-top" alt="teacher-svg">
+                        <div class="card-body">
+                            <h5 class="card-title">220.000 Guru</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="../img/video.svg" class="card-img-top" alt="video-svg">
+                        <div class="card-body">
+                            <h5 class="card-title">600.000 Video</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="../img/materi.svg" class="card-img-top" alt="materi-svg">
+                        <div class="card-body">
+                            <h5 class="card-title">780.000 Materi</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fitur -->
+    <section id="fitur">
+        <div class="container my-5 py-5">
+            <h2 class="fw-semibold text-center">Fitur-Fitur</h2>
+            <div class="row row-cols-1 row-cols-md-4 text-center">
+                <div class="col">
+                    <div class="card mt-5">
+                        <img src="../img/question.svg" class="card-img-top" alt="question-svg" />
+                        <div class="card-body">
+                            <p class="card-text fw-semibold">
+                                Tulis pertanyaanmu dan berdiskusi bersama teman-teman lainnya
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mt-5">
+                        <img src="../img/quiz.svg" class="card-img-top" alt="quiz-svg" />
+                        <div class="card-body">
+                            <p class="card-text fw-semibold">
+                                Selesaikan quiz setiap harinya untuk melatih kemampuanmu!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mt-5">
+                        <img src="../img/learn.svg" class="card-img-top" alt="learn-svg" />
+                        <div class="card-body">
+                            <p class="card-text fw-semibold">
+                                Akses yang mudah, Kamu bisa belajar kapanpun dan dimanapun
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mt-5">
+                        <img src="../img/curriculum.svg" class="card-img-top" alt="curriculum-svg" />
+                        <div class="card-body">
+                            <p class="card-text fw-semibold">
+                                Materi akan selalu diupdate mengikuti kurikulum terbaru
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-4 gap-5 d-flex justify-content-evenly text-center mt-5">
+                <div class="col">
+                    <div class="card">
+                        <img src="../img/live.svg" class="card-img-top" alt="live-svg" />
+                        <div class="card-body">
+                            <p class="card-text fw-semibold">
+                                Belajar lebih seru dan interaktif dengan kelas live setiap
+                                harinya
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="../img/money.svg" class="card-img-top" alt="money-svg" />
+                        <div class="card-body">
+                            <p class="card-text fw-semibold">
+                                Nikmati semua fiturnya dengan 100% gratis tanpa biaya
+                                sedikitpun!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partnership -->
+    <section id="partnership">
+        <div class="container-fluid my-5 py-5 text-center">
+            <h2 class="fw-semibold">Our Partnership</h2>
+            <p class="mt-2 mb-5 secondary-text">
+                Berikut beberapa lembaga yang telah menjalin kerja sama dengan kami.
+            </p>
+            <div class="row mt-5 pt-5">
+                <div class="col d-flex justify-content-evenly align-items-center mb-5 pb-5 flex-wrap gap-5">
+                    <a href="#"><img src="../img/logo_kemendikbud.png" style="width: 5rem" alt="logo-kemendikbud" /></a>
+                    <a href="#"><img src="../img/office365_logo.png" style="width: 11rem" alt="logo-office365" /></a>
+                    <a href="#"><img src="../img/stikom_logo.png" style="width: 5rem" alt="logo-stikom" /></a>
+                    <a href="#"><img src="../img/google_logo.png" style="width: 10rem" alt="logo-google" /></a>
+                    <a href="#"><img src="../img/banyuwangi_logo.png" style="width: 4rem" alt="logo-banyuwangi" /></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimoni -->
+    <section id="testimoni">
+        <div class="container py-5 my-5 text-center">
+            <h2 class="fw-semibold mb-5">Testimoni</h2>
+            <div class="d-flex justify-content-evenly flex-wrap">
+                <div class="row-cols-1 row-cols-md-2 mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../img/profile/1.jpg" class="card-img-top" alt="profile-photo">
+                        <div class="card-body">
+                            <h5 class="card-title">Riza Setiawan</h5>
+                            <q class="card-text fst-italic ">Some quick example text to build on the card title and make
+                                up
+                                the bulk of the card's content.</q>
+                            <div class="stars text-warning mt-2 gap-2 d-flex justify-content-center">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row-cols-1 row-cols-md-2 mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../img/profile/2.jpg" class="card-img-top" alt="profile-photo">
+                        <div class="card-body">
+                            <h5 class="card-title">Riza Setiawan</h5>
+                            <q class="card-text fst-italic ">Some quick example text to build on the card title and make
+                                up
+                                the bulk of the card's content.</q>
+                            <div class="stars text-warning mt-2 gap-2 d-flex justify-content-center">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row-cols-1 row-cols-md-2">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../img/profile/3.jpg" class="card-img-top" alt="profile-photo">
+                        <div class="card-body">
+                            <h5 class="card-title">Riza Setiawan</h5>
+                            <q class="card-text fst-italic ">Some quick example text to build on the card title and make
+                                up
+                                the bulk of the card's content.</q>
+                            <div class="stars text-warning mt-2 gap-2 d-flex justify-content-center">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <div>
+                        <a class="text-light d-flex" href="">
+                            <i class="bi bi-book me-2"></i>
+                            <h4>AyoSinau!</h4>
+                        </a>
+                    </div>
+                    <ul class="mt-2">
+                        <li><a href="">Beranda</a></li>
+                        <li><a href="#tentang">Tentang</a></li>
+                        <li><a href="#fitur">Fitur</a></li>
+                        <li><a href="#partner">Partner</a></li>
+                        <li><a href="#testimoni">Testimoni</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Bantuan</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Layanan Pengaduan</a></li>
+                        <li><a href="#">Karir</a></li>
+                        <li><a href="#">order status</a></li>
+                        <li><a href="#">payment options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Kebijakan Privasi</a></li>
+                        <li><a href="#">Ketentuan Penggunaan</a></li>
+                        <li><a href="#">Syarat & Ketentuan</a></li>
+                        <li><a href="#">Copyright</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Ikuti Kami</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <p class="text-center text-secondary mt-5">Copyright 2022 &copy; YukSinau!. All Right Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+        crossorigin="anonymous"></script>
+    <!-- My JS -->
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
